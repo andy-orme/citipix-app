@@ -1,15 +1,14 @@
 $(function() {
   // event listener on the "update" button
-    
+  $("#submit-btn").on("click", function(e) {
     // preventDefault behaviour of the "update" button
-
+    e.preventDefault();
     // store user input to "var = city"
-
       // `$.val();`
-
       // `$.toLowerCase();`
-
-    // `console.log(city);` to test effectiveness
+      // `console.log(city);` to test effectiveness
+    var city = $("#city-type").val().toLowerCase();
+    console.log(city);
 
     // set up conditional statement
 
@@ -35,4 +34,5 @@ $(function() {
 
       // else do nothing (maybe a message?)
 
+  });    
 });
