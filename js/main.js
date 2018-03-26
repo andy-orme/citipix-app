@@ -28,9 +28,9 @@ $(function() {
     else if (city === "sydney" || city === "syd") {
       $("body").attr("class", "sydney"); // use `$.attr();` and change background-img to "../images/sydney.jpg"
     }
-    else {
-      $("body").attr(""); // else do nothing (maybe a message?)
-    }
+    // else {
+    //   $("body").attr(""); // else do nothing (maybe a message?)
+    // }
 
     $("#city-type").val("");
   });
