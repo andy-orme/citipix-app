@@ -32,6 +32,6 @@ $(function() {
       $("body").attr(""); // else do nothing (maybe a message?)
     }
 
-    $("#city-type").val(null);
+    $("#city-type").val("");
   });
 });
